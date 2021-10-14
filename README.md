@@ -1,9 +1,9 @@
 # Hacktoberfest2021 Task
 
-### Read the following instruction
+### This C program has some errors
 
-This C program has some errors
+Read the following instruction
 ---
-Fork the repository
-Make the changes, correct errors
-Make a pull request
+* Fork the repository
+* Make the changes, correct errors
+* Make a pull request
