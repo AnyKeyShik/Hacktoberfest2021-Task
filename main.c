@@ -92,7 +92,11 @@ oct_to_str()
 void
 str_to_oct()
 {
+<<<<<<< HEAD
     char user_perm[11] = {0}; // declaration of char type array.
+=======
+    char user_perm[11] = {0};
+>>>>>>> b5de8ba (replace scanf with fgets, some checks added and errors fixed)
     unsigned int user_mask = 0;
 
     printf("Enter your string permissions: ");
