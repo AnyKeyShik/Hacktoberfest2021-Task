@@ -48,7 +48,7 @@ void
 main_menu()
 {
     printf("1 - Convert octal permissions to string\n");
-    printf("2 - Convert stirng permissions to octal\n");
+    printf("2 - Convert string permissions to octal\n");
     printf("3 - Exit\n");
 }
 
