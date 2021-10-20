@@ -12,7 +12,7 @@ void
 str_to_oct();
 
 int
-main()
+main(void)          //Execution of every program in c language start from main() function.
 {
     unsigned char choise = 0;
 
@@ -33,9 +33,9 @@ main()
 void
 main_menu()
 {
-    printf("1 - Convert octal permissions to string");
-    printf("2 - Convert stirng permissions to octal");
-    printf("3 - Exit");
+    printf("1 - Convert octal permissions to string\n");
+    printf("2 - Convert stirng permissions to octal\n");
+    printf("3 - Exit\n");
 }
 
 void
@@ -73,7 +73,7 @@ oct_to_str()
 void
 str_to_oct()
 {
-    char user_perm[9];
+    char user_perm[9]; // declaration of char type array.
     unsigned long long user_mask = 0;
     unsigned long long mask = 400;
 
