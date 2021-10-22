@@ -13,7 +13,7 @@ void
 str_to_oct();
 
 int
-main()
+main(void)          //Execution of every program in c language start from main() function.
 {
     char ch[4] = {0};
     unsigned char choise = 0;
@@ -92,7 +92,7 @@ oct_to_str()
 void
 str_to_oct()
 {
-    char user_perm[11] = {0};
+    char user_perm[11] = {0}; // declaration of char type array.
     unsigned int user_mask = 0;
 
     printf("Enter your string permissions: ");
