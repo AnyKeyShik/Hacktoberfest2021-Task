@@ -16,7 +16,7 @@ main(void)          //Execution of every program in c language start from main()
 {
     unsigned char choise = 0;
 
-    main_menu();
+    main_menu();    //Calling main_menu() function.
     scanf("%d", &choise);
     switch (choise) {
         case 1:
@@ -25,6 +25,9 @@ main(void)          //Execution of every program in c language start from main()
             str_to_oct();
         case 3:
             exit(0);
+            
+        default:
+            printf("Invalid choice");
     }
 
     return 0;
